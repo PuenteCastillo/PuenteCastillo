@@ -15,30 +15,8 @@ export default function HeroHeader() {
   useEffect(() => {
     console.log("hello");
 
-    // build tween
-    // var tween = new TimelineMax().add([
-    //   TweenMax.fromTo(".Clouds", 3.5, { y: -100 }, { y: 400 }),
-    //   TweenMax.fromTo(".CloudTwo", 3.5, { y: -100 }, { y: 400 }),
-    //   TweenMax.fromTo(".Sun", 3.5, { y: -200 }, { y: 500 }),
-    //   TweenMax.fromTo(".Lake", 3, { y: -40 }, { y: 500 }),
-    //   TweenMax.fromTo(".mounts", 2.5, { y: -30 }, { y: 250 }),
-    //   TweenMax.fromTo(".Tree", 2, { y: -0 }, { y: 100 }),
-
-    //   TweenMax.to(".headerChild", 3.5, { y: 200 }),
-    // ]);
-
-    //     // build scene
-    //     const controller = new ScrollMagic.Controller();
-    //     const scene = new ScrollMagic.Scene({
-    //       triggerElement: ".trigger",
-
-    //       triggerHook: 0,
-    //       duration: "150%",
-    //     })
-
-    //       .setTween(tween)
-    //       .addIndicators()
-    //       .addTo(controller);
+    // hide / show markers for testing
+    let testMode = false;
 
     gsap.to(".Sun", 3.5, {
       scrollTrigger: {
@@ -47,6 +25,7 @@ export default function HeroHeader() {
         start: "center center",
         end: "bottom center",
         scrub: 1,
+        markers: testMode,
       },
       y: 300,
       scale: 1.5,
@@ -58,7 +37,7 @@ export default function HeroHeader() {
         start: "center center",
         end: "bottom center",
         scrub: 1,
-        markers: true,
+        markers: testMode,
       },
       y: 200,
     });
@@ -70,7 +49,7 @@ export default function HeroHeader() {
         start: "center center",
         end: "bottom center",
         scrub: 1,
-        markers: true,
+        markers: testMode,
       },
       y: 400,
       scale: 1.2,
@@ -83,7 +62,7 @@ export default function HeroHeader() {
         start: "center center",
         end: "bottom center",
         scrub: 1,
-        markers: true,
+        markers: testMode,
       },
       y: 100,
       scale: 1.2,
@@ -93,10 +72,10 @@ export default function HeroHeader() {
       scrollTrigger: {
         // trigger: ".trigger",
         scroller: ".child",
-        start: "top center",
+        start: "center center",
         end: "bottom center",
         scrub: 1,
-        markers: true,
+        markers: testMode,
       },
       y: 40,
       //   scale: 1.3,
@@ -108,8 +87,8 @@ export default function HeroHeader() {
         scroller: ".child",
         start: "center center",
         end: "bottom center",
-        scrub: 1,
-        markers: true,
+        scrub: 3,
+        markers: testMode,
       },
       y: -1000,
       //   delay: 3,
@@ -119,11 +98,13 @@ export default function HeroHeader() {
   return (
     <>
       <section className="hero">
-        {/* <div className="header-content">
+        <div className="header-content">
           <div className="headerChild">
-            <h1>jdskljsdf </h1>
+            <h1>
+              Seemless Design <br />& <br /> Function
+            </h1>
           </div>
-        </div> */}
+        </div>
         <div className="hero_images">
           <Image className="CloudTwo" src={CloudTwo} />
           <Image className="Sun" src={Sun} />
