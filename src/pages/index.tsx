@@ -7,6 +7,7 @@ import HeroHeader from "@/modules/HeroHeader";
 import Spacer from "@/modules/Spacer";
 import Nav from "@/modules/Nav";
 import Footer from "@/modules/Footer";
+import About from "@/modules/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,19 @@ export default function Home() {
           crossorigin="anonymous"
         ></script>
 
+        {/* Bootstrap  */}
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+          crossOrigin="anonymous"
+        ></link>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossOrigin="anonymous"
+        ></script>
+
         {/* Gsap */}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
@@ -44,7 +58,7 @@ export default function Home() {
         <div className="child">
           <div className="trigger"></div>
           <HeroHeader />
-          <Spacer />
+          <About />
         </div>
         <Footer />
       </main>

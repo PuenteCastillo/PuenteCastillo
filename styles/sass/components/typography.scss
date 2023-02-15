@@ -1,22 +1,23 @@
 // font-family: 'Archivo Black', sans-serif;
 // font-family: 'Archivo Narrow', sans-serif;
 // font-family: 'PT Sans', sans-serif;
+body {
+  h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 73pt;
+  }
 
-h1 {
-  font-family: "Archivo Black", sans-serif;
-  font-size: 73pt;
-}
+  h2 {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 24pt;
+    letter-spacing: 0.15em;
+  }
 
-h2 {
-  font-family: "Archivo Narrow", sans-serif;
-  font-size: 24pt;
-  letter-spacing: 0.15em;
-}
-
-p {
-  font-family: "Archivo Narrow", sans-serif;
-  font-size: 14pt;
-  letter-spacing: 0.15em;
+  p {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 14pt;
+    letter-spacing: 0.15em;
+  }
 }
 // .main {
 //   background-color: red !important;
@@ -26,6 +27,7 @@ p {
   min-height: fit-content;
   background-color: #e9e9e9;
   position: relative;
+  z-index: -500;
   // background-color: red;
   .hero_images {
     img {
@@ -190,6 +192,111 @@ p {
       i {
         margin-left: 10px;
         margin-right: 10px;
+      }
+    }
+  }
+  .nav,
+  .footer {
+    // on 1500px or smaller
+    @media (max-width: 1500px) {
+      display: none;
+    }
+  }
+}
+
+.About_Section {
+  background-color: #434242;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -10px;
+  color: white;
+  .position_relative {
+    position: relative;
+  }
+  .imagecontainer {
+    width: fit-content;
+    height: fit-content;
+    min-height: 50px;
+    position: relative;
+  }
+
+  .profile_img {
+    position: relative;
+    max-width: 100%;
+    // width: 400px;
+    height: auto;
+    float: right;
+    // background-color: blue;
+    // opacity: 0.5;
+  }
+  .avatar {
+    position: absolute;
+    max-width: 100%;
+    // width: 400px;
+    height: auto;
+
+    float: right;
+    // right: 0;
+    // background-color: red;
+    // opacity: 0.5;
+  }
+  .yay {
+    transform: scale(1);
+  }
+  .sectionTitle {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 100pt;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -80px;
+    opacity: 0.3;
+  }
+  .About_Section__content {
+    width: 400px;
+    max-width: 100%;
+    // padding-left: 30px;
+
+    height: 100%;
+    display: flex;
+    .center_content {
+      margin: auto;
+    }
+    h2 {
+      font-family: "Archivo Black", sans-serif;
+      font-size: 30pt;
+      margin-bottom: 20px;
+      line-height: 1.2em;
+    }
+    p {
+      line-height: 1.2;
+    }
+    .subhead {
+      display: inline-block;
+      // background-color: red;
+      margin-left: -160px;
+      padding-left: 180px;
+      // margin-right: 20px;
+      // rotate 90 degrees
+      transform: rotate(90deg);
+      p {
+        letter-spacing: 1.2em;
+      }
+      ::after {
+        position: absolute;
+        top: 12px;
+        margin-left: 20px;
+        content: "";
+        background: white;
+        width: 40px;
+        height: 1px;
+      }
+    }
+    .copy {
+      display: inline-block;
+      padding-left: 40px;
+
+      p {
+        line-height: 1.3;
       }
     }
   }

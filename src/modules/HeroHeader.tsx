@@ -18,80 +18,26 @@ export default function HeroHeader() {
     // hide / show markers for testing
     let testMode = false;
 
-    gsap.to(".Sun", 3.5, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 1,
-        markers: testMode,
-      },
-      y: 300,
-      scale: 1.5,
-    });
-    gsap.to(".Clouds, .CloudTwo", 3.5, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 1,
-        markers: testMode,
-      },
-      y: 200,
-    });
+    // create timeline
+    let Hero_tl = gsap.timeline();
+    Hero_tl.add("start", 0)
+      .add("all", 0.2)
+      .to(".Sun", 3.5, { y: 300, scale: 1.5 }, "all")
+      .to(".Clouds, .CloudTwo", 3.5, { y: 200 }, "all")
+      .to(".Lake", 3, { y: 400, scale: 1.2 }, "all")
+      .to(".mounts", 2.5, { y: 100, scale: 1.2 }, "all")
+      .to(".Tree", 2, { y: 40 }, "all")
+      .to(".headerChild", 0.8, { y: -500, opacity: 0 }, "start");
 
-    gsap.to(".Lake", 3, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 1,
-        markers: testMode,
-      },
-      y: 400,
-      scale: 1.2,
-    });
-
-    gsap.to(".mounts", 2.5, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 1,
-        markers: testMode,
-      },
-      y: 100,
-      scale: 1.2,
-    });
-
-    gsap.to(".Tree", 2, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 1,
-        markers: testMode,
-      },
-      y: 40,
-      //   scale: 1.3,
-    });
-
-    gsap.to(".headerChild", 0.5, {
-      scrollTrigger: {
-        // trigger: ".trigger",
-        scroller: ".child",
-        start: "center center",
-        end: "bottom center",
-        scrub: 3,
-        markers: testMode,
-      },
-      y: -1000,
-      //   delay: 3,
+    // create scroll trigger
+    ScrollTrigger.create({
+      animation: Hero_tl,
+      // trigger: ".trigger",
+      scroller: ".child",
+      start: "center center",
+      end: "800px center",
+      scrub: 1,
+      markers: testMode,
     });
   }, []);
 
