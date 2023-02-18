@@ -8,19 +8,34 @@ import AvatarOverlay from "../../public/images/avatarOverlay.png";
 
 export default function About() {
   useEffect(() => {
-    gsap.to(".yay", 1, {
-      scrollTrigger: {
-        trigger: ".imagecontainer",
-        scroller: ".child",
-        start: "top center",
-        end: "500 center",
-        scrub: 1,
-        // markers: true,
-      },
-      scale: 1.1,
-      // opacity: 1,
-      // ease: "power2.out",
-    });
+    let ctx = gsap.context(() => {
+      gsap.to(".yay", 1, {
+        scrollTrigger: {
+          trigger: ".imagecontainer",
+          scroller: ".child",
+          start: "top center",
+          end: "500 center",
+          scrub: 1,
+          // markers: true,
+        },
+        scale: 1.1,
+      });
+
+      gsap.from(".sectionTitle", 1, {
+        y: -20,
+        // opacity: 0,
+        scrollTrigger: {
+          trigger: ".imagecontainer",
+          scroller: ".child",
+          start: "top center",
+          end: "300 center",
+          scrub: 1,
+          // markers: true,
+        },
+      });
+    }); // <- scope!!!
+
+    return () => ctx.revert(); // cleanup!
   }, []);
 
   return (
