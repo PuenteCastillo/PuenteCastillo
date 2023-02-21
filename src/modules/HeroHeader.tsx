@@ -2,11 +2,11 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 /// images
-import Clouds from "../../public/images/clouds.png";
-import Deer from "../../public/images/deer.png";
-import Lake from "../../public/images/lake.png";
-import mounts from "../../public/images/mounts.png";
-import Sun from "../../public/images/sun.png";
+// import Clouds from "../../public/images/clouds.png";
+// import Deer from "../../public/images/deer.png";
+// import Lake from "../../public/images/lake.png";
+// import mounts from "../../public/images/mounts.png";
+// import Sun from "../../public/images/sun.png";
 import Tree from "../../public/images/trees.png";
 import Placeholder from "../../public/images/placeholder.png";
 import CloudTwo from "../../public/images/cloudsTwo.png";
@@ -58,14 +58,14 @@ export default function HeroHeader() {
           </div>
         </div>
         <div className="hero_images">
-          <Image className="CloudTwo" src={CloudTwo} alt="Clouds" priority />
+          {/* <Image className="CloudTwo" src={CloudTwo} alt="Clouds" priority />
           <Image className="Sun" src={Sun} alt="Sun" priority />
 
           <Image className="Lake" src={Lake} alt="Lake" priority />
           <Image className="Clouds" src={Clouds} alt="Cloud" priority />
           <Image className="mounts" src={mounts} alt="Mounts" priority />
           <Image className="Tree" src={Tree} alt="Tree" priority />
-          <Image className="deer" src={Deer} alt="Deer" priority />
+          <Image className="deer" src={Deer} alt="Deer" priority /> */}
 
           <Image
             className="main-image"
