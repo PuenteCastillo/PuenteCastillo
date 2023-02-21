@@ -1,17 +1,15 @@
 import { useEffect } from "react";
-
+import useSWR from "swr";
 import Head from "next/head";
-import Image from "next/image";
-import Logo from "/public/images/logo.png";
+
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
+
 import HeroHeader from "@/modules/HeroHeader";
 import Spacer from "@/modules/Spacer";
 import Nav from "@/modules/Nav";
 import Footer from "@/modules/Footer";
-import About from "@/modules/About";
 import Skittles from "@/modules/Skittles";
-import CDN from "@/modules/CDN";
+
 import Project_main from "@/modules/Project_main";
 
 import Me from "@/modules/Me";

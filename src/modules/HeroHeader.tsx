@@ -4,7 +4,7 @@ import { useEffect } from "react";
 /// images
 //import image from public file
 
-import Clouds from "/public/images/clouds.png";
+import Clouds from "/public/static/clouds.png";
 import Deer from "/public/images/deer.png";
 import Lake from "/public/images/lake.png";
 import mounts from "/public/images/mounts.png";
