@@ -4,14 +4,14 @@ import { useEffect } from "react";
 /// images
 //import image from public file
 
-import Clouds from "../images/clouds.png";
-import Deer from "../images/deer.png";
-import Lake from "../images/lake.png";
-import mounts from "../images/mounts.png";
-import Sun from "../images/sun.png";
-import Tree from "../images/trees.png";
-import Placeholder from "../images/placeholder.png";
-import CloudTwo from "../images/cloudsTwo.png";
+// import Clouds from "/images/clouds.png";
+import Deer from "/public/images/deer.png";
+import Lake from "/public/images/lake.png";
+import mounts from "/public/images/mounts.png";
+import Sun from "/public/images/sun.png";
+import Tree from "/public/images/trees.png";
+import Placeholder from "/public/images/placeholder.png";
+import CloudTwo from "/public/images/cloudsTwo.png";
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 // gsap.registerPlugin(ScrollTrigger);
@@ -64,7 +64,14 @@ export default function HeroHeader() {
           <Image className="Sun" src={Sun} alt="Sun" priority />
 
           <Image className="Lake" src={Lake} alt="Lake" priority />
-          <Image className="Clouds" src={Clouds} alt="Cloud" priority />
+          <Image
+            className="Clouds"
+            src="/public/images/clouds.png"
+            alt="Cloud"
+            width={100}
+            height={100}
+            priority
+          />
           <Image className="mounts" src={mounts} alt="Mounts" priority />
           <Image className="Tree" src={Tree} alt="Tree" priority />
           <Image className="deer" src={Deer} alt="Deer" priority />

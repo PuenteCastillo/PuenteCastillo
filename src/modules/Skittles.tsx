@@ -3,27 +3,27 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 
 // logos
-import JS_logo from "../images/resized_icons/JS.png";
-import CSS_logo from "../images/resized_icons/css.png";
-import Express_logo from "../images/resized_icons/express.png";
-import Github_logo from "../images/resized_icons/github.png";
-import Google_logo from "../images/resized_icons/google.png";
-import Gsap_logo from "../images/resized_icons/Gsap.png";
-import Heroku_logo from "../images/resized_icons/heroku.png";
-import HTML_logo from "../images/resized_icons/html.png";
-import Jquery_logo from "../images/resized_icons/jquery.png";
-import Lightoom_logo from "../images/resized_icons/lightroom.png";
-import Mongodb_logo from "../images/resized_icons/mongodb.png";
-import NextJS_logo from "../images/resized_icons/nextjs.png";
-import NodeJS_logo from "../images/resized_icons/nodejs.png";
-import Photoshop_logo from "../images/resized_icons/photoshop.png";
-import PHP_logo from "../images/resized_icons/php.png";
-import Premier_logo from "../images/resized_icons/premier.png";
-import React_logo from "../images/resized_icons/reacr.png";
-import Sass_logo from "../images/resized_icons/sass.png";
-import SQL_logo from "../images/resized_icons/sql.png";
-import Wordpress_logo from "../images/resized_icons/wordpress.png";
-import XD_logo from "../images/resized_icons/xd.png";
+import JS_logo from "/public/images/resized_icons/JS.png";
+import CSS_logo from "/public/images/resized_icons/css.png";
+import Express_logo from "/public/images/resized_icons/express.png";
+import Github_logo from "/public/images/resized_icons/github.png";
+import Google_logo from "/public/images/resized_icons/google.png";
+import Gsap_logo from "/public/images/resized_icons/Gsap.png";
+import Heroku_logo from "/public/images/resized_icons/heroku.png";
+import HTML_logo from "/public/images/resized_icons/html.png";
+import Jquery_logo from "/public/images/resized_icons/jquery.png";
+import Lightoom_logo from "/public/images/resized_icons/lightroom.png";
+import Mongodb_logo from "/public/images/resized_icons/mongodb.png";
+import NextJS_logo from "/public/images/resized_icons/nextjs.png";
+import NodeJS_logo from "/public/images/resized_icons/nodejs.png";
+import Photoshop_logo from "/public/images/resized_icons/photoshop.png";
+import PHP_logo from "/public/images/resized_icons/php.png";
+import Premier_logo from "/public/images/resized_icons/premier.png";
+import React_logo from "/public/images/resized_icons/reacr.png";
+import Sass_logo from "/public/images/resized_icons/sass.png";
+import SQL_logo from "/public/images/resized_icons/sql.png";
+import Wordpress_logo from "/public/images/resized_icons/wordpress.png";
+import XD_logo from "/public/images/resized_icons/xd.png";
 
 export default function Skittles() {
   useEffect(() => {
