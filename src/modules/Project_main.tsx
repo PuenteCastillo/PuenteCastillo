@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import XMI from "/public/images/projects/xmi.png";
-import Little from "/public/images/projects/Little_Ceasars.jpg";
-import Mile from "/public/images/projects/mile44.jpeg";
-import Callaway from "/public/images/projects/callaway.jpg";
-import Drakes from "/public/images/projects/drakes.png";
-import RightArrow from "/public/images/projects/right_arrow.png";
-import Project_one from "/public/images/projects/kbs_img.jpg";
+import XMI from "./images/projects/xmi.png";
+import Little from "./images/projects/Little_Ceasars.jpg";
+import Mile from "./images/projects/mile44.jpeg";
+import Callaway from "./images/projects/callaway.jpg";
+import Drakes from "./images/projects/drakes.png";
+import RightArrow from "./images/projects/right_arrow.png";
+import Project_one from "./images/projects/kbs_img.jpg";
 
 export default function Project_main() {
   return (

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
 import Image from "next/image";
-import Profile from "/public/images/profilePic.png";
-import Blob from "/public/images/blob.png";
-import Yay from "/public/images/yay.png";
-import AvatarOverlay from "/public/images/avatarOverlay.png";
+import Profile from "./images/profilePic.png";
+import Blob from "./images/blob.png";
+import Yay from "./images/yay.png";
+import AvatarOverlay from "./images/avatarOverlay.png";
 
 export default function About() {
   return (
