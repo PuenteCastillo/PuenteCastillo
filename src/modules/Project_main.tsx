@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import XMI from "./images/projects/xmi.png";
+import Xmi from "./images/projects/xmiimage.jpg";
 import Little from "./images/projects/Little_Ceasars.jpg";
 import Mile from "./images/projects/mile44.jpeg";
 import Callaway from "./images/projects/callaway.jpg";
@@ -25,7 +25,7 @@ export default function Project_main() {
             </div>
           </div>
           <div className="project_box">
-            <Image src={XMI} alt="Project One" />
+            <Image src={Xmi} alt="Project One" />
             <div className="project_parent">
               <div className="porject-center">
                 <h2> Qualtrics </h2>

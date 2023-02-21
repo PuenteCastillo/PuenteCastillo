@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Image from "next/image";
-import Self from "./images/self.jpg";
+import Self from "./images/memyself.png";
 import Dots from "./images/dots.png";
 
 export default function Me() {
