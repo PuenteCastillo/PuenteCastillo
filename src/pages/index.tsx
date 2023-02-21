@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import Head from "next/head";
 import Image from "next/image";
-import Logo from "../../public/images/logo.png";
+import Logo from "/public/images/logo.png";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import HeroHeader from "@/modules/HeroHeader";

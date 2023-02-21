@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 
-import Image from "next/image";
-import Self from "../../public/images/self.jpg";
-import Dots from "../../public/images/dots.png";
 import axios from "axios";
 
 export default function Me() {
