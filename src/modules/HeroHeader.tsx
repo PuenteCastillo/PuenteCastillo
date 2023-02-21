@@ -4,14 +4,14 @@ import { useEffect } from "react";
 /// images
 //import image from public file
 
-import Clouds from "/public/static/clouds.png";
-import Deer from "/public/static/images/deer.png";
-import Lake from "/public/static/images/lake.png";
-import mounts from "/public/static/images/mounts.png";
-import Sun from "/public/static/images/sun.png";
-import Tree from "/public/static/images/trees.png";
-import Placeholder from "/public/static/images/placeholder.png";
-import CloudTwo from "/public/static/images/cloudsTwo.png";
+import Clouds from "../images/clouds.png";
+import Deer from "../images/deer.png";
+import Lake from "../images/lake.png";
+import mounts from "../images/mounts.png";
+import Sun from "../images/sun.png";
+import Tree from "../images/trees.png";
+import Placeholder from "../images/placeholder.png";
+import CloudTwo from "../images/cloudsTwo.png";
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 // gsap.registerPlugin(ScrollTrigger);
