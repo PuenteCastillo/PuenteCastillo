@@ -29,8 +29,8 @@ export default function Skittles() {
   useEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(".still-box", 1, {
-        y: 500,
-        opcaity: 0.5,
+        y: 400,
+        opcaity: 0,
         stagger: {
           // grid: [7, 15],
           // from: "center",

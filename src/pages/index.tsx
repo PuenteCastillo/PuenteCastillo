@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "../../public/images/logo.png";
@@ -10,6 +12,10 @@ import Footer from "@/modules/Footer";
 import About from "@/modules/About";
 import Skittles from "@/modules/Skittles";
 import CDN from "@/modules/CDN";
+import Project_main from "@/modules/Project_main";
+import Background_img from "../../public/images/5N8A2420.JPG";
+import Me from "@/modules/Me";
+import GetInTouch from "@/modules/GetInTouch";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,8 +33,12 @@ export default function Home() {
         <div className="child">
           <div className="trigger"></div>
           <HeroHeader />
-          <About />
+          {/* <About /> */}
+          <Me />
           <Skittles />
+          <Spacer />
+          <Project_main />
+          <GetInTouch />
         </div>
         <Footer />
       </main>

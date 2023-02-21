@@ -32,6 +32,7 @@ export default function HeroHeader() {
       ScrollTrigger.create({
         animation: Hero_tl,
         // trigger: ".trigger",
+        // pin: ".hero",
         scroller: ".child",
         start: "center center",
         end: "1000 center",

@@ -23,6 +23,7 @@ export default function About() {
 
       gsap.from(".sectionTitle", 1, {
         y: -20,
+        // scale: 1.3,
         // opacity: 0,
         scrollTrigger: {
           trigger: ".imagecontainer",
