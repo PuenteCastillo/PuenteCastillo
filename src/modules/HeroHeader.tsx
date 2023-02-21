@@ -5,13 +5,13 @@ import { useEffect } from "react";
 //import image from public file
 
 // import Clouds from "/images/clouds.png";
-import Deer from "/public/images/deer.png";
-import Lake from "/public/images/lake.png";
-import mounts from "/public/images/mounts.png";
-import Sun from "/public/images/sun.png";
-import Tree from "/public/images/trees.png";
-import Placeholder from "/public/images/placeholder.png";
-import CloudTwo from "/public/images/cloudsTwo.png";
+import Deer from "../../public/images/deer.png";
+import Lake from "../../public/images/lake.png";
+import mounts from "../../public/images/mounts.png";
+import Sun from "../../public/images/sun.png";
+import Tree from "../../public/images/trees.png";
+import Placeholder from "../../public/images/placeholder.png";
+import CloudTwo from "../../public/images/cloudsTwo.png";
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/ScrollTrigger.js";
 // gsap.registerPlugin(ScrollTrigger);
