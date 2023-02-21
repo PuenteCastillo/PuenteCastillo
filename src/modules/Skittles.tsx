@@ -8,7 +8,7 @@ import CSS_logo from "./images/resized_icons/css.png";
 import Express_logo from "./images/resized_icons/express.png";
 import Github_logo from "./images/resized_icons/github.png";
 import Google_logo from "./images/resized_icons/google.png";
-import Gsap_logo from "./images/resized_icons/Gsap.png";
+import Gsap_logo from "./images/resized_icons/gsap.png";
 import Heroku_logo from "./images/resized_icons/heroku.png";
 import HTML_logo from "./images/resized_icons/html.png";
 import Jquery_logo from "./images/resized_icons/jquery.png";
