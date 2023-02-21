@@ -10,6 +10,9 @@ import Sun from "../../public/images/sun.png";
 import Tree from "../../public/images/trees.png";
 import Placeholder from "../../public/images/placeholder.png";
 import CloudTwo from "../../public/images/cloudsTwo.png";
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger.js";
+// gsap.registerPlugin(ScrollTrigger);
 
 export default function HeroHeader() {
   useEffect(() => {
@@ -55,16 +58,21 @@ export default function HeroHeader() {
           </div>
         </div>
         <div className="hero_images">
-          <Image className="CloudTwo" src={CloudTwo} />
-          <Image className="Sun" src={Sun} />
+          <Image className="CloudTwo" src={CloudTwo} alt="Clouds" priority />
+          <Image className="Sun" src={Sun} alt="Sun" priority />
 
-          <Image className="Lake" src={Lake} />
-          <Image className="Clouds" src={Clouds} />
-          <Image className="mounts" src={mounts} />
-          <Image className="Tree" src={Tree} />
-          <Image className="deer" src={Deer} />
+          <Image className="Lake" src={Lake} alt="Lake" priority />
+          <Image className="Clouds" src={Clouds} alt="Cloud" priority />
+          <Image className="mounts" src={mounts} alt="Mounts" priority />
+          <Image className="Tree" src={Tree} alt="Tree" priority />
+          <Image className="deer" src={Deer} alt="Deer" priority />
 
-          <Image className="main-image" src={Placeholder} />
+          <Image
+            className="main-image"
+            src={Placeholder}
+            alt="Placholder"
+            priority
+          />
         </div>
       </section>
     </>

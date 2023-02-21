@@ -14,20 +14,29 @@ export default function Me() {
     register,
     handleSubmit,
     formState: { isSubmitting },
-  } = useForm();
+  } = useForm<FormData>();
   const [successMessage, SetSuccessMessage] = useState("");
 
   function sendEmail(data) {
     // event default
     event.preventDefault();
-    axios.post("https://eotlovohaqkady7.m.pipedream.net", data).then(
-      (response) => {
-        console.log(response);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
+
+    axios
+      .post("https://eotlovohaqkady7.m.pipedream.net", {
+        email: data.email,
+        fname: data.fname,
+        lname: data.lname,
+        Company: data.Company,
+        Message: data.Message,
+      })
+      .then(
+        (response) => {
+          console.log(response);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
   }
 
   return (
@@ -88,8 +97,8 @@ export default function Me() {
               <div className="formGroup">
                 <label htmlFor="name">Message</label>
                 <textarea
-                  name="message"
-                  id="message"
+                  id="Message"
+                  name="Message"
                   {...register("Message")}
                 />
               </div>

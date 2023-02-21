@@ -15,7 +15,7 @@ export default function Me() {
         .add("start", 0)
         .from(".background_border", 3.5, { x: 30 }, "start")
         .from(".dots", 3.5, { x: -50, y: -50 }, "start")
-        .from(".bg_color", 3.5, { width: 150 }, "start");
+        .from(".bg_color", 3.5, { width: 0 }, "start");
 
       // create scroll trigger
       ScrollTrigger.create({
@@ -58,7 +58,7 @@ export default function Me() {
             </div>
             <div className="col-lg-7 order-0 order-md-1 positionRE">
               <div className="right-container">
-                <Image className="dots" src={Dots} />
+                <Image className="dots" src={Dots} alt="Dots" />
                 <div className="img_container">
                   <Image src={Self} alt="logo" />
                 </div>
