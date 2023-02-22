@@ -12,7 +12,7 @@ export default function Project_main() {
   return (
     <div className="Project_main">
       <div className="container titleRow">
-        <h2>Projects</h2>
+        <h2 className="sectionTitleTwo">Projects</h2>
       </div>
       <div className="scrollable">
         <div className="container projects_container">

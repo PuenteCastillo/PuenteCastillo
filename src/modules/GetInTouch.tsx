@@ -40,7 +40,7 @@ export default function Me() {
     <section id="Contact" className="GetInTouch">
       {/* Create a form and run sendEmail funtction  */}
       <div className="container">
-        <h2>Get In Touch</h2>
+        <h2 className="sectionTitleTwo">Get In Touch</h2>
       </div>
 
       <div className="container formcontainer">

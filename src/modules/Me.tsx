@@ -44,7 +44,7 @@ export default function Me() {
                 <div className="center_items">
                   <h2>Hello World </h2>
                   <h1>
-                    I am <br /> J.P Castillo
+                    I am J.P <br /> Castillo
                   </h1>
 
                   <a href="#ContactContact" className="them-btn">
@@ -70,7 +70,7 @@ export default function Me() {
       </div>
 
       <div className="container aboutFooter">
-        <h2>About</h2>
+        <h2 className="sectionTitle">About</h2>
         <div className="">
           <p>
             Full Stack Web Developer with a background in Photography,

@@ -5,6 +5,7 @@ body {
   h1 {
     font-family: "Archivo Black", sans-serif;
     font-size: 73pt;
+    line-height: 1.3;
   }
 
   h2 {
@@ -23,6 +24,22 @@ body {
 //   background-color: red !important;
 // }
 
+.sectionTitle {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 30pt;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  color: white;
+  margin-bottom: 75px;
+}
+.sectionTitleTwo {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 30pt;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  color: black;
+  margin-bottom: 75px;
+}
 .hero {
   min-height: fit-content;
   background-color: #e9e9e9;
@@ -43,30 +60,15 @@ body {
       // on 992px or smaller
       @media (max-width: 992px) {
         height: 70vh;
-        margin-left: -18%;
-        width: auto;
-        max-width: inherit;
-        // object-fit: contain;
-      }
-      @media (max-width: 800px) {
-        height: 70vh;
-        margin-left: -10%;
-        width: auto;
-        max-width: inherit;
-        // object-fit: contain;
-      }
+        // margin-left: -18%;
 
-      @media (max-width: 576px) {
-        height: 70vh;
-        margin-left: -80%;
-        width: auto;
+        width: 100%;
+        object-fit: cover;
         max-width: inherit;
         // object-fit: contain;
       }
     }
-    @media (max-width: 800px) {
-      margin-left: -200px;
-    }
+
     .main-image {
       position: relative;
     }
@@ -174,7 +176,15 @@ body {
       display: none;
     }
   }
+  transition: 3s;
 }
+
+// .dark {
+//   background-color: #434242;
+//   // add transition time
+
+//   transition: 3s;
+// }
 
 .main {
   .nav {
