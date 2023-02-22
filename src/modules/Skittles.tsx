@@ -57,7 +57,7 @@ export default function Skittles() {
         <div className="container">
           <h2 className="sectionTitle"> Skillzz</h2>
           <div className="row">
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box skill_boxOne">
                 <div className="still-child">
                   <Image src={JS_logo} alt="React Logo" />
@@ -65,7 +65,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={HTML_logo} alt="React Logo" />
@@ -73,7 +73,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={CSS_logo} alt="React Logo" />
@@ -81,7 +81,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={PHP_logo} alt="React Logo" />
@@ -89,7 +89,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Mongodb_logo} alt="React Logo" />
@@ -97,7 +97,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Express_logo} alt="React Logo" />
@@ -105,7 +105,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={React_logo} alt="React Logo" />
@@ -113,7 +113,7 @@ export default function Skittles() {
                 </div>
               </div>
             </div>
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={NodeJS_logo} alt="React Logo" />
@@ -122,7 +122,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Jquery_logo} alt="React Logo" />
@@ -131,7 +131,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={NextJS_logo} alt="React Logo" />
@@ -140,7 +140,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={HTML_logo} alt="React Logo" />
@@ -149,7 +149,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Wordpress_logo} alt="React Logo" />
@@ -158,7 +158,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Sass_logo} alt="React Logo" />
@@ -167,7 +167,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={SQL_logo} alt="React Logo" />
@@ -176,7 +176,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Github_logo} alt="React Logo" />
@@ -185,7 +185,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Heroku_logo} alt="React Logo" />
@@ -194,7 +194,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Gsap_logo} alt="React Logo" />
@@ -203,7 +203,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Photoshop_logo} alt="React Logo" />
@@ -212,7 +212,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Lightoom_logo} alt="React Logo" />
@@ -221,7 +221,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={XD_logo} alt="React Logo" />
@@ -230,7 +230,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Premier_logo} alt="React Logo" />
@@ -239,7 +239,7 @@ export default function Skittles() {
               </div>
             </div>
 
-            <div className="col-6 col-lg-4 col-xl-3">
+            <div className="col-6 col-md-4 col-xl-3">
               <div className="still-box">
                 <div className="still-child">
                   <Image src={Google_logo} alt="React Logo" />
