@@ -55,7 +55,7 @@ export default function HeroHeader() {
         <div className="header-content">
           <div className="headerChild">
             <h1>
-              Seemless Design <br />& <br /> Function
+              Welcome <br /> to my neck of the woods!
             </h1>
           </div>
         </div>
