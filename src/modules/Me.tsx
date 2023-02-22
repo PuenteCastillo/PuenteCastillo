@@ -39,24 +39,24 @@ export default function Me() {
         <div className="container positionRel">
           <div className="bg_color"></div>
           <div className="row">
-            <div className="col-lg-5 order-1 order-md-0">
+            <div className="col-lg-5 order-1 order-lg-0">
               <div className="copy_container">
                 <div className="center_items">
                   <h2>Hello World </h2>
                   <h1>
-                    I am <br /> J.P
+                    I am <br /> J.P Castillo
                   </h1>
 
                   <a href="#ContactContact" className="them-btn">
                     Hire Me
                   </a>
-                  <a href="#" className="them-btn">
+                  {/* <a href="#" className="them-btn">
                     Resume
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 order-0 order-md-1 positionRE">
+            <div className="col-lg-7 order-0 order-lg-1 positionRE">
               <div className="right-container">
                 <Image className="dots" src={Dots} alt="Dots" />
                 <div className="img_container">
