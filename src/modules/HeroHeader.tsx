@@ -12,9 +12,6 @@ import Sun from "./images/sun.png";
 import Tree from "./images/trees.png";
 import Placeholder from "./images/placeholder.png";
 import CloudTwo from "./images/cloudsTwo.png";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger.js";
-// gsap.registerPlugin(ScrollTrigger);
 
 export default function HeroHeader() {
   useEffect(() => {
@@ -45,8 +42,6 @@ export default function HeroHeader() {
         markers: testMode,
       });
     }); // <- scope!!!
-
-    // ctx.revert(); // cleanup!
   }, []);
 
   return (
@@ -55,7 +50,7 @@ export default function HeroHeader() {
         <div className="header-content">
           <div className="headerChild">
             <h1>
-              Welcome <br /> to my neck of the woods!
+              Turning coffee <br /> into code.
             </h1>
           </div>
         </div>

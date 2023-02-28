@@ -15,9 +15,33 @@ import Project_main from "@/modules/Project_main";
 import Me from "@/modules/Me";
 import GetInTouch from "@/modules/GetInTouch";
 
+import $ from "jquery";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  useEffect(() => {
+    // <- scope!!!
+
+    // // browser code
+    // $(".main").on("scroll", function () {
+    //   if ($(".main").scrollTop() > 1000) {
+    //     $(".child").addClass("make_white");
+    //   } else {
+    //     $(".child").removeClass("make_white");
+    //   }
+    // });
+
+    // // scroll main body even if the mouse is on the main page
+    $(".main").on("wheel", function (e) {
+      e.preventDefault();
+      console.log("sdfs");
+      $(".child").scrollTop(
+        $(".child").scrollTop() + e.originalEvent.deltaY / 5
+      );
+    });
+  }, []);
+
   return (
     <>
       <Head>

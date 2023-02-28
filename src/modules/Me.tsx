@@ -47,7 +47,7 @@ export default function Me() {
                     I am J.P <br /> Castillo
                   </h1>
 
-                  <a href="#ContactContact" className="them-btn">
+                  <a href="#Contact" className="them-btn">
                     Hire Me
                   </a>
                   {/* <a href="#" className="them-btn">
