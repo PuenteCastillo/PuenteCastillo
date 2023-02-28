@@ -37,7 +37,7 @@ export default function Home() {
       e.preventDefault();
       console.log("sdfs");
       $(".child").scrollTop(
-        $(".child").scrollTop() + e.originalEvent.deltaY / 5
+        $(".child").scrollTop() + e.originalEvent.deltaY / 2
       );
     });
   }, []);
