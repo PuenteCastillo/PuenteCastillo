@@ -16,22 +16,31 @@ export default function Project_main() {
       </div>
       <div className="scrollable">
         <div className="container projects_container">
-          <div className="project_box">
-            <Image src={Project_one} alt="Project One" />
-            <div className="project_parent">
-              <div className="porject-center">
-                <h2> KBS </h2>
+          <a href="https://kbsgolfshafts.com/" rel="noreferrer" target="_blank">
+            <div className="project_box">
+              <Image src={Project_one} alt="Project One" />
+              <div className="project_parent">
+                <div className="porject-center">
+                  <h2> KBS </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="project_box">
-            <Image src={Xmi} alt="Project One" />
-            <div className="project_parent">
-              <div className="porject-center">
-                <h2> Qualtrics </h2>
+          </a>
+          <a
+            href="https://www.xminstitute.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div className="project_box">
+              <Image src={Xmi} alt="Project One" />
+              <div className="project_parent">
+                <div className="porject-center">
+                  <h2> Qualtrics </h2>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
+
           <div className="project_box">
             <Image src={Little} alt="Project One" />
             <div className="project_parent">
@@ -40,14 +49,21 @@ export default function Project_main() {
               </div>
             </div>
           </div>
-          <div className="project_box">
-            <Image src={Mile} alt="Project One" />
-            <div className="project_parent">
-              <div className="porject-center">
-                <h2> Mile 44</h2>
+          <a
+            href="https://www.milefortyfour.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div className="project_box">
+              <Image src={Mile} alt="Project One" />
+              <div className="project_parent">
+                <div className="porject-center">
+                  <h2> Mile 44</h2>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
+
           <div className="project_box">
             <Image src={Callaway} alt="Project One" />
             <div className="project_parent">
@@ -56,14 +72,16 @@ export default function Project_main() {
               </div>
             </div>
           </div>
-          <div className="project_box">
-            <Image src={Drakes} alt="Project One" />
-            <div className="project_parent">
-              <div className="porject-center">
-                <h2> Drakes </h2>
+          <a href="https://drakesorganic.com/" rel="noreferrer" target="_blank">
+            <div className="project_box">
+              <Image src={Drakes} alt="Project One" />
+              <div className="project_parent">
+                <div className="porject-center">
+                  <h2> Drakes </h2>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 
