@@ -43,7 +43,7 @@ export default function HeroHeader() {
         scroller: ".child",
         start: "center center",
         end: "1000 center",
-        scrub: 2,
+        scrub: 1,
         markers: testMode,
       });
     }); // <- scope!!!

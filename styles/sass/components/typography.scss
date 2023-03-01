@@ -173,7 +173,7 @@ body {
   .child {
     margin: auto;
     width: 80vw;
-    max-width: 1400px;
+    max-width: 1600px;
     // width: 1440px;
     height: 80vh;
     overflow: hidden;
@@ -757,5 +757,28 @@ body {
       transition: 0.5s;
     }
     margin-bottom: 100px;
+  }
+  .spinner-border {
+    margin-left: 75px;
+    margin-top: 8px;
+    margin-bottom: 100px;
+  }
+
+  .thankYou {
+    height: 600px;
+    display: flex;
+    text-align: center;
+    // background-color: red;
+    padding-bottom: 200px;
+    .thankYouchild {
+      // background-color: #e6e6e6;
+      margin: auto;
+    }
+    p {
+      line-height: 1.5;
+    }
+    h2 {
+      margin-top: -75px;
+    }
   }
 }
