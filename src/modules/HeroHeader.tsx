@@ -22,13 +22,18 @@ export default function HeroHeader() {
       // create timeline
       let Hero_tl = gsap.timeline();
       Hero_tl.add("start", 0)
-        .add("all", 0.2)
-        .to(".Sun", 3.5, { y: 300, scale: 1.5 }, "all")
-        .to(".Clouds, .CloudTwo", 3.5, { y: 200 }, "all")
-        .to(".Lake", 3, { y: 400, scale: 1.2 }, "all")
-        .to(".mounts", 2.5, { y: 100, scale: 1.2 }, "all")
-        .to(".Tree", 2, { y: 40 }, "all")
-        .to(".headerChild", 0.8, { y: -600 }, "start");
+        .add("all", 0.5)
+        .to(".Sun", 3.5, { y: 300, opacity: 0.9, scale: 1.5 }, "all")
+        .to(
+          ".Clouds, .CloudTwo",
+          3.5,
+          { y: 200, opacity: 0.9, color: "red" },
+          "all"
+        )
+        .to(".Lake", 3, { y: 400, opacity: 0.9, scale: 1.2 }, "all")
+        .to(".mounts", 2.5, { y: 100, opacity: 0.9, scale: 1.2 }, "all")
+        .to(".Tree", 2, { y: 40, opacity: 0.9 }, "all")
+        .to(".headerChild", 0.8, { y: -600, opacity: 0.9 }, "start");
 
       // create scroll trigger
       ScrollTrigger.create({

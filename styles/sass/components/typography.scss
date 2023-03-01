@@ -49,6 +49,7 @@ body {
   .hero_images {
     img {
       max-width: 100%;
+      object-fit: cover;
       height: auto;
       // background-color: blue;
       // z-index: 900;
@@ -67,6 +68,28 @@ body {
         max-width: inherit;
         // object-fit: contain;
       }
+    }
+
+    .CloudTwo {
+      z-index: -100;
+    }
+    .Sun {
+      z-index: -99;
+    }
+    .Lake {
+      z-index: -98;
+    }
+    .Clouds {
+      z-index: -97;
+    }
+    .mounts {
+      z-index: -96;
+    }
+    .Tree {
+      // z-index: -95;
+    }
+    .deer {
+      // z-index: 0;
     }
 
     .main-image {
@@ -99,6 +122,7 @@ body {
       box-shadow: 10px 10px 400px -33px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 10px 10px 400px -33px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 10px 10px 400px -33px rgba(0, 0, 0, 0.75);
+      // z-index: ;
       h1 {
         margin: auto;
         max-width: 80%;
