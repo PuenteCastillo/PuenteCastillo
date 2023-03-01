@@ -16,7 +16,7 @@ export default function Project_main() {
       </div>
       <div className="scrollable">
         <div className="container projects_container">
-          <a href="https://kbsgolfshafts.com/" target="_blank">
+          <a href="https://kbsgolfshafts.com/" rel="noreferrer" target="_blank">
             <div className="project_box">
               <Image src={Project_one} alt="Project One" />
               <div className="project_parent">
@@ -26,7 +26,11 @@ export default function Project_main() {
               </div>
             </div>
           </a>
-          <a href="https://www.xminstitute.com/" target="_blank">
+          <a
+            href="https://www.xminstitute.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <div className="project_box">
               <Image src={Xmi} alt="Project One" />
               <div className="project_parent">
@@ -45,7 +49,11 @@ export default function Project_main() {
               </div>
             </div>
           </div>
-          <a href="https://www.milefortyfour.com/" target="_blank">
+          <a
+            href="https://www.milefortyfour.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <div className="project_box">
               <Image src={Mile} alt="Project One" />
               <div className="project_parent">
@@ -64,7 +72,7 @@ export default function Project_main() {
               </div>
             </div>
           </div>
-          <a href="https://drakesorganic.com/" target="_blank">
+          <a href="https://drakesorganic.com/" rel="noreferrer" target="_blank">
             <div className="project_box">
               <Image src={Drakes} alt="Project One" />
               <div className="project_parent">
