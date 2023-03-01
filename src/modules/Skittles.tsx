@@ -26,30 +26,30 @@ import Wordpress_logo from "./images/resized_icons/wordpress.png";
 import XD_logo from "./images/resized_icons/xd.png";
 
 export default function Skittles() {
-  useEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.from(".still-box", 1, {
-        y: 400,
-        opcaity: 0,
-        stagger: {
-          // grid: [7, 15],
-          // from: "center",
-          amount: 1,
-        },
-        scrollTrigger: {
-          // animation: box_tl,
-          trigger: ".Skittles",
-          scroller: ".child",
-          start: "-400 bottom",
-          end: "95% bottom",
-          scrub: 1,
-          // markers: true,
-        },
-      });
-    }); // <- scope!!!
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.from(".still-box", 1, {
+  //       y: 400,
+  //       opcaity: 0,
+  //       stagger: {
+  //         // grid: [7, 15],
+  //         // from: "center",
+  //         amount: 1,
+  //       },
+  //       scrollTrigger: {
+  //         // animation: box_tl,
+  //         trigger: ".Skittles",
+  //         scroller: ".child",
+  //         start: "-400 bottom",
+  //         end: "95% bottom",
+  //         scrub: 1,
+  //         // markers: true,
+  //       },
+  //     });
+  //   }); // <- scope!!!
 
-    return () => ctx.revert(); // cleanup!
-  });
+  //   return () => ctx.revert(); // cleanup!
+  // });
 
   return (
     <>

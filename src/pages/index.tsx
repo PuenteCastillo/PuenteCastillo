@@ -22,7 +22,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   useEffect(() => {
     // <- scope!!!
-
     // // browser code
     // $(".main").on("scroll", function () {
     //   if ($(".main").scrollTop() > 1000) {
@@ -31,15 +30,14 @@ export default function Home() {
     //     $(".child").removeClass("make_white");
     //   }
     // });
-
-    // // scroll main body even if the mouse is on the main page
-    $(".main").on("wheel", function (e) {
-      e.preventDefault();
-      console.log("sdfs");
-      $(".child").scrollTop(
-        $(".child").scrollTop() + e.originalEvent.deltaY / 5
-      );
-    });
+    // // // scroll main body even if the mouse is on the main page
+    // $(".main").on("wheel", function (e) {
+    //   e.preventDefault();
+    //   console.log("sdfs");
+    //   $(".child").scrollTop(
+    //     $(".child").scrollTop() + e.originalEvent.deltaY / 2
+    //   );
+    // });
   }, []);
 
   return (
