@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm JP</h1>
 <h3 align="center">A passionate fullstack web developer from California</h3>
 
-- 👨‍💻 All of my projects are available at [https://puente-castillo-i8hhioms9-puentecastillo.vercel.app/](https://puente-castillo-i8hhioms9-puentecastillo.vercel.app/)
+- 👨‍💻 All of my projects are available at https://www.puentecastillo.com/
 
 - 📫 How to reach me **Josepuente2013@gmail.com**
 
